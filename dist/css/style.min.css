@@ -161,7 +161,7 @@ h2 {
 
 .side-info dt {
     font-size: 18px;
-    color: #00796b;
+    color: #18B215;
     line-height: 40px
 }
 
@@ -185,7 +185,7 @@ h2 {
 .skill-bar-wrap {
     height: 17px;
     width: 150px;
-    background: #00796b;
+    background: #18B215;
     display: inline-block;
     -webkit-border-radius: 20px;
     border-radius: 20px
@@ -214,7 +214,7 @@ h2 {
 }
 
 .main a {
-    color: #4db6ac
+    color: #18B215;
 }
 
 .main-info>li {
@@ -223,9 +223,9 @@ h2 {
 
 .main-info dt {
     font-size: 21px;
-    color: #00796b;
+    color: #18B215;
     line-height: 55px;
-    border-bottom: 1px solid #00796b;
+    border-bottom: 1px solid #18B215;
     margin: 0 0 25px 12px;
 }
 
@@ -275,7 +275,7 @@ h5 {
 h4 a,
 h5 a {
     font-size: 12px;
-    border: 1px solid #4db6ac;
+    border: 1px solid #18B215;
     padding: 1px 3px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -287,7 +287,7 @@ h5 a {
     width: 14px;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background: #00796b;
+    background: #18B215;
     float: left;
     position: absolute;
     left: -28px;
@@ -295,7 +295,35 @@ h5 a {
 }
 
 .exp {
-    margin-left: 15px
+    margin-left: 15px;
+}
+.exp>li {
+    position: relative;
+}
+
+.route {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 70px;
+    padding: 4px;
+    background: #18B215;
+    color: #fff!important;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+.code {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 118px!important;
+    height: 118px!important;
+    vertical-align: top;
+    text-align: center;
+    z-index: 999;
 }
 
 .exp p {
